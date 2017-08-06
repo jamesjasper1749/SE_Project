@@ -22,3 +22,6 @@ twbs:bootstrap
 underscore
 iron:router
 sacha:spin
+ian:accounts-ui-bootstrap-3
+accounts-password
+dburles:google-maps
