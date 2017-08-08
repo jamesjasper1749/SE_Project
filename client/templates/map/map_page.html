@@ -1,0 +1,23 @@
+<template name="mapPage">  
+  <div class="map-container">
+    {{> googleMap name="mapEx" options=mapOptions}}
+  </div>
+  <br>
+  <div>
+  	<form class="main form">
+  		<div class="form-group">
+	      <label class="control-label">Lat</label>
+	      <div class="controls">
+	          <input name="lat" id="lat" type="text" value="" placeholder="Your Lat" class="form-control"/>    
+	      </div>
+	    </div>
+	    <div class="form-group">
+	      <label class="control-label">Lng</label>
+	      <div class="controls">
+	          <input name="lng" id="lng" type="text" value="" placeholder="Your Lng" class="form-control"/>
+	      </div>
+	    </div>
+	    <input type="submit" value="Submit" class="btn btn-primary"/>
+  	</form>
+  </div>
+</template>  
